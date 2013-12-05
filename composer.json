@@ -1,0 +1,26 @@
+{
+  "name": "paulyg/autoloader",
+  "description": "A simple and lightweight PSR-0 and PSR-4 class autoloader",
+  "keywords": [
+    "autoloading",
+    "PSR-0",
+    "PSR0",
+    "PSR-4",
+    "PSR4",
+    "package",
+    "closure"
+  ],
+  "homepage": "https://github.com/paulyg/autoloader",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Garvin"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "archive": {
+    "exclude": ["/tests"]
+  }
+}
