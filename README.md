@@ -46,7 +46,7 @@ A secondary motivation was some postings I saw in the PHPUnit issues on Github, 
 
 The autoloader is just one small class file and I don't expect it to change much so I recommend just downloading it from Github using the *raw* feature.
 ```
-$ wget https://github.com/paulyg/Autoloader/raw/Paulyg/Autloader.php
+$ wget https://github.com/paulyg/autoloader/raw/master/src/Paulyg/Autloader.php
 ```
 
 Or you could use Composer. Add the following to your project's `composer.json` file:
@@ -60,7 +60,7 @@ Or you could use Composer. Add the following to your project's `composer.json` f
 
 Or clone the Git repo.
 ```
-$ git clone https://github.com/paulyg/Autoloader
+$ git clone https://github.com/paulyg/autoloader
 ```
 
 ## API
