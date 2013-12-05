@@ -66,6 +66,7 @@ $ git clone https://github.com/paulyg/autoloader
 ## API
 
 **3 simple methods. All methods work both staticlly or called from an instance.**
+
 1. `addPsr0($prefix, $dir, $prepend = false)`
 2. `addPsr4($prefix, $dir, $prepend = false)`
 3. `remove($prefix, $dir)`
