@@ -32,7 +32,7 @@ The PSR-4 autoloading standard allows you to stucture library code like so.
 And autoload them like so.
 ```php
 <?php
-use Paulyg\Autloader;
+use Paulyg\Autoloader;
 Autoloader::addPsr4('Zend\Feed', '/path/to/project/zf/zend-feed');
 $reader = new \Zend\Feed\Reader();
 ```
@@ -46,7 +46,7 @@ A secondary motivation was some postings I saw in the PHPUnit issues on Github, 
 
 The autoloader is just one small class file and I don't expect it to change much so I recommend just downloading it from Github using the *raw* feature.
 ```
-$ wget https://github.com/paulyg/autoloader/raw/master/src/Paulyg/Autloader.php
+$ wget https://github.com/paulyg/autoloader/raw/master/src/Paulyg/Autoloader.php
 ```
 
 Or you could use Composer. Add the following to your project's `composer.json` file:
